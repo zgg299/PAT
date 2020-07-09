@@ -103,8 +103,8 @@ void divide(long long a1, long long b1, long long a2, long long b2) {
 		printf("\n");
 	}
 	else {
-		long long a3 = -1*a1 * b2;
-		long long b3 = -1*b1 * a2;
+		long long a3 = a1 * b2;
+		long long b3 = b1 * a2;
 		long long gcd3 = abs(gcd(a3, b3));
 		a3 /= gcd3;
 		b3 /= gcd3;
